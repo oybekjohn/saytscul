@@ -1,0 +1,98 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'schoolsite/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>MUIMI School</title>
+</head>
+
+<body>
+    <header class="fafa">
+        <aside class="header-top">
+            <div class="sp1"><span class="muimi-span">MUIMI </span><span class="school-span">School</span></div>
+
+            <div class="menu">
+                <i class="fa fa-book" aria-hidden="true"></i><a href="#sf">О нас</a>
+                <i class="fa fa-male" aria-hidden="true"></i><a href="#ss">Герои</a>
+                <i class="fa fa-tasks" aria-hidden="true"></i><a href="#sth">Цель</a>
+                <i class="fa fa-user" aria-hidden="true"></i><a href="#sfo">Учителя</a>
+                <i class="fa fa-info" aria-hidden="true"></i><a href="#sfi">Информация</a>
+            </div>
+
+            <div class="sp2"><span class="muimi-span">MUIMI </span><span class="school-span">School</span></div>
+        </aside>
+        <div class="img-logo">
+                <img src="{% static 'schoolsite/img/muimi-logo.png' %}" alt="">
+        </div>
+    </header>
+
+    <section id="sf">
+        <h1>
+            Сведения о нас
+        </h1>
+        <p>
+            Наша школа сформулирована в 2018 году.Слово MUIMI расшифруется как - "Mirzo Ulg'bek ixtisoslashtirilgan maktab-internati". Школа специлизирована на физику, математику, астраномию, а также глубоко изучаются английский язык, информатика, биология, химия и музыка. Наша школа была построена указом президента. Наша школа сперва была в министрстве инновации, но в июне 2021 года перешла в министерству PIIMA. 
+        </p>
+
+
+
+
+    </section>
+    <section id="ss">
+        <h1>
+            Наши гордости
+        </h1>
+        <p>
+            <i class="fa fa-trophy" aria-hidden="true"></i> Жавохир Султанов - 2-кратный чемпион по физике республиканского этапа
+        </p>
+        <p>
+            <i class="fa fa-trophy" aria-hidden="true"></i> Ахрор Акрамов - Обладатель IELTS ровно 7.5
+        </p>
+        <p>
+            <i class="fa fa-trophy" aria-hidden="true"></i> Избаев Бехруз - Гений математики
+        </p>
+    </section>
+    <section id="sth">
+        <h1>Цель и задачи школы</h1>
+        <ol>
+            <li>Развитие одаренности учащихся, обучение и воспитание в соответствии с государственными образовательными стандартами.</li>
+            <li>Организация образования на основе утвержденных учебных планов и программ по профильным дисциплинам с инновационными подходами</li>
+            <li>Осуществление учебно-воспитательной работы школы-интерната в интересах каждого человека, общества и государства</li>
+            <li>Создание благоприятных условий для всестороннего созревания учащихся, в том числе предоставление им возможностей для самостоятельной работы над собой и получения дополнительных знаний</li>
+        </ol>
+    </section>
+    <section id="sfo">
+        <h1>Учителя</h1>
+        <p>У нас много хороших учителей и все они избранные как и ученики. Они сдают экзамены как и ученики и после прохождения экзамена проходят собеседование. Но если они не прошли собеседование, то им не работать в нашей школе. И вот список учителей:</p>
+        <div class="fafafa">
+            <a class="alert alert-success" href="/teachers">Список учителей</a>
+        </div>
+    </section>
+    <section id="sfi">
+        <h1>Информации</h1>
+        <ul>
+            <li>Локация: Город Ташкент, Юнусабадский район,ул. Чингиза Айтматова,1-tor 9-дом</li>
+            <li>Email: mimud@piima.uz</li>
+            <li>Контакты: +99855 503-50-07</li>
+            <li>Еда: 5-кратная бесплатная</li>
+            <li>Форма: классическая с логотипом</li>
+            <li>Учеников: 200</li>
+            <li>Директор: Олимжон Туйчиев</li>
+        </ul>
+        <p>А также вы можете подать заявку на учительство, потому что у нас учителей мало</p>
+        <div class="fafaf">
+            <a class="alert alert-warning" href="/reg">Подать заявку</a>
+        </div>
+    </section>
+    <footer>
+        <p>MUIMISchool Company. All certificates are reserved. 2018-2022</p>
+    </footer>
+</body>
+</html>

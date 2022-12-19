@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8C8CBC;
+}
+
+aside{
+    float: left;
+    background: #202020;
+    width: 100%;
+    padding: 2%;
+    height: 4%;
+    color: #fff;
+    border-bottom: 5px solid #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo img{
+    width: 55%;
+    height: 55%;
+    margin-left: 22.41%;
+    margin-top: 5.7%;
+    margin-bottom: 5.7%;
+}
+
+.muimi-span{
+    font-size: 30px;
+    color: #5b2e2e;
+    margin: 0;
+}
+
+.school-span{
+    font-size: 30px;
+    color: #909090;
+    margin: 0;
+}
+
+.fafaf{
+    margin-top: 50px;
+    text-align:center;
+    transition: all 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.fafaf:hover{
+    color:aliceblue
+}
+
+.fafaf a{
+    text-decoration: none;
+}
+
+section h1{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size:50px;
+    margin-top: 1%;
+}
+
+section p{
+    margin-top: 30px;
+    margin-left: 11%;
+    text-align: center;
+    color: black;
+    font-size:15px;
+    max-width:75%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section ol{
+    margin-top: 30px;
+    margin-left: 11%;
+    text-align: center;
+    color: black;
+    font-size:15px;
+    max-width:75%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section ul{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 11%;
+    text-align: center;
+    color: black;
+    font-size:15px;
+    max-width:75%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section ul > li {
+    margin-top: 0.5%;
+}
+
+.alert-success{
+    text-align: center;
+    width: 14%;
+}
+
+.fafafa{
+    margin-top: 50px;
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+.fafafa:hover{
+    color:aliceblue
+}
+
+.fafafa a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    color: thistle;
+    width: 100%;
+}
+
+footer p{
+    padding: 1.5%;
+    margin: 0 auto;
+}
+
+.menu{
+    margin:0 auto;
+    position: relative;
+    top: 10px;
+}
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    margin:5px 2px;
+    color: white;
+}

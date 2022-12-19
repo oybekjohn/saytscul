@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img img{
+    width: 25vh;
+    height: 15.78vh;
+}
+
+img{
+    width: 100px;
+    height: 100%;
+}
+
+.img{
+    margin-top: 1px;
+    margin-left: 170vh;
+}
+
+.hfi{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table{
+    width: 60%;
+    margin-left: 19.5%;
+    margin-top: 50px;
+}
+td{
+    text-align: center;
+    border-right: 1px solid black;
+}
+th{
+    text-align: center;
+    border-right: 1px solid black;
+}
+tr{
+    border-top: 2px solid black;
+}
+
+section{
+    text-align: center;
+    margin-top: 50px
+}
+
+.fafaf a{
+    text-decoration: none;
+}

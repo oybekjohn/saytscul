@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header aside{
+    float: left;
+    background: #202020;
+    width: 100%;
+    padding: 2%;
+    height: 4%;
+    color: #fff;
+    border-bottom: 5px solid #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.muimi-span{
+    font-size: 30px;
+    color: #5b2e2e;
+    margin: 0;
+}
+
+.school-span{
+    font-size: 30px;
+    color: #909090;
+    margin: 0;
+}
+
+.hf{
+    font-size: 30px;
+    color: #202020;
+    text-align: center;
+    margin-top: 0;
+}
+
+.ht{
+    font-size: 20px;
+    color: #202020;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form-control{
+    max-width: 730px;
+    margin-left: 25%;
+    margin-top: 1.5%;
+}
+
+.btn-success{
+    width: 16%;
+    margin-left: 42%;
+    margin-top: 4%;
+}
